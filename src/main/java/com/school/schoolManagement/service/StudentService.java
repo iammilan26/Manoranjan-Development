@@ -22,6 +22,7 @@ public class StudentService {
 	public List<Student> getAllStudents() {
 		// TODO Auto-generated method stub
 		//return studentRepository.getAllStudents().stream().collect(Collectors.toList());
+		//return all student
 		return studentRepository.findAll();
 	}
 
