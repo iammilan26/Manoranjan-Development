@@ -23,6 +23,8 @@ public class StudentService {
 		// TODO Auto-generated method stub
 		//return studentRepository.getAllStudents().stream().collect(Collectors.toList());
 		//return all student
+		//
+		//adding4th
 		return studentRepository.findAll();
 	}
 
